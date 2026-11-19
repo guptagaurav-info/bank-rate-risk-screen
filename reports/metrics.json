@@ -1,0 +1,501 @@
+{
+  "universe": {
+    "banks_in_profile": 593,
+    "crisis_sample": 446
+  },
+  "windows": {
+    "crisis": {
+      "dates": [
+        "2023-03-08",
+        "2023-05-04"
+      ],
+      "bank_ew_return": -0.21867454471703304,
+      "bank_median_return": -0.22580220583443333,
+      "spy_return": 0.01556703098365575,
+      "ten_year": [
+        3.9800000000000004,
+        3.37
+      ],
+      "n": 446
+    },
+    "episode2": {
+      "dates": [
+        "2023-08-15",
+        "2023-10-27"
+      ],
+      "bank_ew_return": -0.09529967094533409,
+      "bank_median_return": -0.08758568164508762,
+      "spy_return": -0.07272686220054636,
+      "ten_year": [
+        4.21,
+        4.84
+      ],
+      "n": 455
+    },
+    "placebo": {
+      "dates": [
+        "2022-03-08",
+        "2022-05-04"
+      ],
+      "bank_ew_return": -0.022240987230060537,
+      "bank_median_return": -0.025535714285714273,
+      "spy_return": 0.03077477477477486,
+      "ten_year": [
+        1.8599999999999999,
+        2.93
+      ],
+      "n": 394
+    },
+    "strict_lag": {
+      "dates": [
+        "2023-03-08",
+        "2023-05-04"
+      ],
+      "bank_ew_return": -0.222327942295772,
+      "bank_median_return": -0.2328681472589036,
+      "spy_return": 0.01556703098365575,
+      "ten_year": [
+        3.9800000000000004,
+        3.37
+      ],
+      "n": 429
+    }
+  },
+  "ic": {
+    "crisis": {
+      "securities_share": {
+        "spearman": 0.18182106766700346,
+        "p": 0.00016115730516756484,
+        "n": 426
+      },
+      "aoci_to_equity": {
+        "spearman": 0.0853214762585118,
+        "p": 0.08144610444148065,
+        "n": 418
+      },
+      "rate_beta": {
+        "spearman": -0.21024317459182162,
+        "p": 7.543409847065319e-06,
+        "n": 446
+      },
+      "deposit_growth": {
+        "spearman": -0.19840104669251296,
+        "p": 0.00013593988927438708,
+        "n": 365
+      },
+      "loans_to_deposits": {
+        "spearman": -0.2310733206403942,
+        "p": 8.563762823897276e-07,
+        "n": 444
+      },
+      "equity_to_assets": {
+        "spearman": -0.19243662805346878,
+        "p": 4.296896291878056e-05,
+        "n": 446
+      },
+      "mkt_beta": {
+        "spearman": -0.29774194538871634,
+        "p": 1.3955880412755442e-10,
+        "n": 446
+      },
+      "log_assets": {
+        "spearman": 0.07007794394008866,
+        "p": 0.13950958047918427,
+        "n": 446
+      },
+      "score": {
+        "spearman": 0.1117100646653276,
+        "p": 0.03435767885416001,
+        "n": 359
+      },
+      "funding": {
+        "spearman": -0.2351168090576715,
+        "p": 5.617503583098994e-06,
+        "n": 365
+      }
+    },
+    "episode2": {
+      "securities_share": {
+        "spearman": 0.03345196304000619,
+        "p": 0.48549595975734355,
+        "n": 437
+      },
+      "aoci_to_equity": {
+        "spearman": 0.05202155385682578,
+        "p": 0.28290782020531396,
+        "n": 428
+      },
+      "rate_beta": {
+        "spearman": -0.19174362536739706,
+        "p": 3.8376424644940244e-05,
+        "n": 455
+      },
+      "deposit_growth": {
+        "spearman": -0.11819087573380582,
+        "p": 0.021893235186779103,
+        "n": 376
+      },
+      "loans_to_deposits": {
+        "spearman": -0.07740450066908493,
+        "p": 0.09989163109569671,
+        "n": 453
+      },
+      "equity_to_assets": {
+        "spearman": -0.0723355159949654,
+        "p": 0.12337912610611527,
+        "n": 455
+      },
+      "mkt_beta": {
+        "spearman": -0.2967154121231824,
+        "p": 1.0627778206002243e-10,
+        "n": 455
+      },
+      "log_assets": {
+        "spearman": -0.04685902453464084,
+        "p": 0.31860162659583047,
+        "n": 455
+      },
+      "score": {
+        "spearman": 0.030292917638667195,
+        "p": 0.5618695887566981,
+        "n": 369
+      },
+      "funding": {
+        "spearman": -0.13162201494207396,
+        "p": 0.01062268571984466,
+        "n": 376
+      }
+    },
+    "placebo": {
+      "securities_share": {
+        "spearman": -0.24619589527952138,
+        "p": 1.2223898839567038e-06,
+        "n": 379
+      },
+      "aoci_to_equity": {
+        "spearman": 0.08895210289817601,
+        "p": 0.08581480548967395,
+        "n": 374
+      },
+      "rate_beta": {
+        "spearman": 0.03680736828180893,
+        "p": 0.4662886006556052,
+        "n": 394
+      },
+      "deposit_growth": {
+        "spearman": -0.02873074045379469,
+        "p": 0.600826050739829,
+        "n": 334
+      },
+      "loans_to_deposits": {
+        "spearman": 0.11421858414080209,
+        "p": 0.023543492542897303,
+        "n": 393
+      },
+      "equity_to_assets": {
+        "spearman": -0.11020175424991965,
+        "p": 0.028730999624119315,
+        "n": 394
+      },
+      "mkt_beta": {
+        "spearman": -0.023324494908532716,
+        "p": 0.6443898435355069,
+        "n": 394
+      },
+      "log_assets": {
+        "spearman": -0.1373646085559828,
+        "p": 0.006316099815727871,
+        "n": 394
+      },
+      "score": {
+        "spearman": -0.18239686676348627,
+        "p": 0.0009046411535559777,
+        "n": 328
+      },
+      "funding": {
+        "spearman": 0.1513968574825949,
+        "p": 0.0055626790020070465,
+        "n": 334
+      }
+    },
+    "strict_lag": {
+      "securities_share": {
+        "spearman": 0.14807774685688868,
+        "p": 0.002585547091289615,
+        "n": 412
+      },
+      "aoci_to_equity": {
+        "spearman": 0.1120553783493609,
+        "p": 0.023771401214498975,
+        "n": 407
+      },
+      "rate_beta": {
+        "spearman": -0.19951941847202037,
+        "p": 3.1495398321613454e-05,
+        "n": 429
+      },
+      "deposit_growth": {
+        "spearman": -0.15490618673205336,
+        "p": 0.003004685317170867,
+        "n": 365
+      },
+      "loans_to_deposits": {
+        "spearman": -0.19372100690712124,
+        "p": 5.5884392441462636e-05,
+        "n": 427
+      },
+      "equity_to_assets": {
+        "spearman": -0.24482754027095593,
+        "p": 2.829006366092674e-07,
+        "n": 429
+      },
+      "mkt_beta": {
+        "spearman": -0.28015579933497786,
+        "p": 3.5394809643253675e-09,
+        "n": 429
+      },
+      "log_assets": {
+        "spearman": 0.09402411458891034,
+        "p": 0.05164415021470817,
+        "n": 429
+      },
+      "score": {
+        "spearman": 0.05062583647325218,
+        "p": 0.3388242970749755,
+        "n": 359
+      },
+      "funding": {
+        "spearman": -0.19278209172068556,
+        "p": 0.00021115832941680723,
+        "n": 365
+      }
+    }
+  },
+  "quintiles_crisis": {
+    "score": [
+      -0.2452,
+      -0.2725,
+      -0.259,
+      -0.2636,
+      -0.1874
+    ],
+    "funding": [
+      -0.173,
+      -0.2359,
+      -0.2729,
+      -0.2869,
+      -0.2474
+    ],
+    "mkt_beta": [
+      -0.1682,
+      -0.1684,
+      -0.2355,
+      -0.2693,
+      -0.2525
+    ]
+  },
+  "quintiles_episode2": {
+    "score": [
+      -0.1015,
+      -0.1092,
+      -0.1036,
+      -0.0898,
+      -0.0985
+    ],
+    "funding": [
+      -0.0889,
+      -0.0994,
+      -0.0871,
+      -0.1089,
+      -0.1214
+    ],
+    "mkt_beta": [
+      -0.0678,
+      -0.0721,
+      -0.0911,
+      -0.121,
+      -0.1245
+    ]
+  },
+  "spread_ci_crisis": {
+    "score": {
+      "lo": 0.014606002547191837,
+      "hi": 0.10626111414938326
+    },
+    "funding": {
+      "lo": -0.12604642987952852,
+      "hi": -0.02418643757607804
+    },
+    "mkt_beta": {
+      "lo": -0.1277017009680876,
+      "hi": -0.047602667390541906
+    }
+  },
+  "spread_ci_episode2": {
+    "score": {
+      "lo": -0.022835029193673823,
+      "hi": 0.03158994507904857
+    },
+    "funding": {
+      "lo": -0.061164881335118056,
+      "hi": -0.0018815944793487795
+    },
+    "mkt_beta": {
+      "lo": -0.0875970893323917,
+      "hi": -0.03424132010367245
+    }
+  },
+  "exclusion": {
+    "crisis": {
+      "score": {
+        "all": -0.24551493737695906,
+        "safer_half": -0.26324993592637147,
+        "riskier_half": -0.2276808606233599,
+        "n": 359
+      },
+      "funding": {
+        "all": -0.2431937865989131,
+        "safer_half": -0.21665683549299053,
+        "riskier_half": -0.2701705766734422,
+        "n": 365
+      },
+      "mkt_beta": {
+        "all": -0.21867454471703304,
+        "safer_half": -0.1772536207173316,
+        "riskier_half": -0.26009546871673445,
+        "n": 446
+      }
+    },
+    "episode2": {
+      "score": {
+        "all": -0.10052674111386724,
+        "safer_half": -0.1063287691321857,
+        "riskier_half": -0.09469318033457967,
+        "n": 369
+      },
+      "funding": {
+        "all": -0.10111649193033577,
+        "safer_half": -0.09443595229533705,
+        "riskier_half": -0.10779703156533448,
+        "n": 376
+      },
+      "mkt_beta": {
+        "all": -0.09529967094533409,
+        "safer_half": -0.07102879142834807,
+        "riskier_half": -0.11967747063640378,
+        "n": 455
+      }
+    }
+  },
+  "medians_crisis": {
+    "securities_share": 0.1908,
+    "aoci_to_equity": -0.1318,
+    "rate_beta": 0.0163,
+    "deposit_growth": 0.1478,
+    "loans_to_deposits": 0.8326,
+    "equity_to_assets": 0.0895,
+    "mkt_beta": 0.4391,
+    "log_assets": 22.7718
+  },
+  "worst10_crisis": [
+    {
+      "symbol": "WAL",
+      "ret": -0.746,
+      "loans_to_deposits": 0.983,
+      "deposit_growth": 0.68,
+      "securities_share": 0.135,
+      "mkt_beta": 1.245
+    },
+    {
+      "symbol": "FFWM",
+      "ret": -0.698,
+      "loans_to_deposits": 1.032,
+      "deposit_growth": 0.752,
+      "securities_share": 0.084,
+      "mkt_beta": 0.649
+    },
+    {
+      "symbol": "MCB",
+      "ret": -0.637,
+      "loans_to_deposits": 0.909,
+      "deposit_growth": 0.378,
+      "securities_share": 0.156,
+      "mkt_beta": 0.876
+    },
+    {
+      "symbol": "ZION",
+      "ret": -0.573,
+      "loans_to_deposits": 0.763,
+      "deposit_growth": 0.029,
+      "securities_share": 0.266,
+      "mkt_beta": 1.16
+    },
+    {
+      "symbol": "INBK",
+      "ret": -0.568,
+      "loans_to_deposits": 0.744,
+      "deposit_growth": 0.052,
+      "securities_share": 0.128,
+      "mkt_beta": 0.503
+    },
+    {
+      "symbol": "CMA",
+      "ret": -0.536,
+      "loans_to_deposits": 0.729,
+      "deposit_growth": -0.02,
+      "securities_share": 0.224,
+      "mkt_beta": 1.092
+    },
+    {
+      "symbol": "FHN",
+      "ret": -0.529,
+      "loans_to_deposits": 0.914,
+      "deposit_growth": -0.093,
+      "securities_share": 0.147,
+      "mkt_beta": 0.429
+    },
+    {
+      "symbol": "RBB",
+      "ret": -0.517,
+      "loans_to_deposits": 1.107,
+      "deposit_growth": 0.13,
+      "securities_share": 0.067,
+      "mkt_beta": 0.597
+    },
+    {
+      "symbol": "EGBN",
+      "ret": -0.517,
+      "loans_to_deposits": 0.869,
+      "deposit_growth": -0.052,
+      "securities_share": 0.241,
+      "mkt_beta": 0.475
+    },
+    {
+      "symbol": "BMRC",
+      "ret": -0.514,
+      "loans_to_deposits": 0.579,
+      "deposit_growth": 0.427,
+      "securities_share": 0.428,
+      "mkt_beta": 0.458
+    }
+  ],
+  "data_sha256": {
+    "bank_prices.parquet": "81bf9cef1fd40bcb4edfd31d8d500d7c1580d5cbd6e5fc28916807f4888624e2",
+    "bank_statements.parquet": "875cd2915cea466a7f5abc6d2e9f7ca1453239034f3b1c836be12ec08a49722d",
+    "etf_prices.parquet": "a7b657ba0e792a081bf78ceb4f9b2279bf217f9a77e8dc898e0a0318b94b8f1c",
+    "universe.parquet": "cd2b585fbfd488a8ad4c5bc2226432eed93ffc76b315a2abf6cc625477ec7622",
+    "yields.parquet": "3794a82fb8e1604f2563f646d3f5a7d507e47bd83a5dfd8460ca989fde950fbd"
+  },
+  "dollars_per_1bn": {
+    "crisis": {
+      "score": -17734998.549412407,
+      "funding": 26536951.10592258,
+      "mkt_beta": 41420923.99970143
+    },
+    "episode2": {
+      "score": -5802028.018318458,
+      "funding": 6680539.634998719,
+      "mkt_beta": 24270879.51698602
+    }
+  }
+}
